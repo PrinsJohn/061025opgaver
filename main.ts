@@ -7,6 +7,7 @@ assets.image`sunset 2`
 for (let index = 0; index < 2; index++) {
     for (let value of frames) {
         scene.setBackgroundImage(value)
-        pause(1000)
+        pause(700)
     }
 }
+scene.setBackgroundImage(assets.image`Slot`)
